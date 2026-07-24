@@ -4,6 +4,300 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Value value="0"/>
     </CRequirementConst>
+    <!-- Terran unit unlocks -->
+    <CRequirementCountUpgrade id="AP_UnlockMarine">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMarine" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockMedic">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMedic" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockFirebat">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockFirebat" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockMarauder">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMarauder" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockReaper">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockReaper" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockHellion">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockHellion" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockVulture">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockVulture" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockGoliath">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockGoliath" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockDiamondback">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockDiamondback" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSiege Tank">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSiege Tank" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockMedivac">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMedivac" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockWraith">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockWraith" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockViking">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockViking" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBanshee">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBanshee" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBattlecruiser">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBattlecruiser" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockGhost">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockGhost" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSpectre">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSpectre" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockThor">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockThor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockRaven">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockRaven" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockScience Vessel">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockScience Vessel" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockPredator">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockPredator" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockHercules">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockHercules" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockDominionTrooper">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockDominionTrooper" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockHERC">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockHERC" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockWidowMine">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockWidowMine" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockCyclone">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockCyclone" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockWarhound">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockWarhound" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockLiberator">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockLiberator" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockValkyrie">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockValkyrie" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSonOfKorhal">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSonOfKorhal" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockFieldResponseTheta">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockFieldResponseTheta" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockAegisGuard">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockAegisGuard" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockEmperorsShadow">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockEmperorsShadow" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBulwarkCompany">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBulwarkCompany" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockShockDivision">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockShockDivision" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBlackhammer">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBlackhammer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSkyFury">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSkyFury" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockWingedNightmare">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockWingedNightmare" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockNightWolf">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockNightWolf" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockEmperorsGuardian">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockEmperorsGuardian" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockPrideOfAugustgrad">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockPrideOfAugustgrad" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBunker">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBunker" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockMissileTurret">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMissileTurret" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSensorTower">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSensorTower" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockPlanetaryFortress">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockPlanetaryFortress" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockPerditionTurret">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockPerditionTurret" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockHiveMindEmulator">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockHiveMindEmulator" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockPsiDisrupter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockPsiDisrupter" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockDevastatorTurret">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockDevastatorTurret" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockWarPigs">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockWarPigs" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockDevilDogs">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockDevilDogs" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockHammerSecurities">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockHammerSecurities" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSpartanCompany">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSpartanCompany" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSiegeBreakers">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSiegeBreakers" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockHelsAngels">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockHelsAngels" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockDuskWings">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockDuskWings" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockJacksonsRevenge">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockJacksonsRevenge" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockSkibisAngels">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockSkibisAngels" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockDeathHeads">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockDeathHeads" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockPhantomSquadron">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockPhantomSquadron" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockMidnightRiders">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMidnightRiders" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBrynhilds">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBrynhilds" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockJotun">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockJotun" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockBarracks">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBarracks" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockFactory">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockFactory" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockStarport">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockStarport" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockReactor">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockTechLab">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockTechLab" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockTechReactor">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockTechReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockEngineeringBay">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockEngineeringBay" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockArmory">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockArmory" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockGhostAcademy">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockGhostAcademy" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockFusionCore">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockFusionCore" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <!-- End of unit unlocks -->
     <CRequirementCountUpgrade id="AP_CountUpgradeHotSHaveRaptorCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AP_HotSHaveRaptor" State="CompleteOnly"/>
@@ -6439,7 +6733,7 @@
         <Flags index="TechTreeCheat" value="0"/>
     </CRequirementCountBehavior>
     <CRequirementCountUpgrade id="AP_CountUpgradeHaveHiveQueenCompleteOnly">
-        <Count Link="AP_HaveHiveQueen" State="CompleteOnly"/>
+        <Count Link="AP_UnlockHiveQueen" State="CompleteOnly"/>
         <Flags index="TechTreeCheat" value="0"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="AP_CountUpgradeHiveQueenSwelledTransfusionCompleteOnly">

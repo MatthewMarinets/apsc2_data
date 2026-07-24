@@ -3,6 +3,300 @@
     <CRequirement id="AP_NeverShow">
         <NodeArray index="Show" Link="AP_Never"/>
     </CRequirement>
+    <!-- Terran unit unlocks -->
+    <CRequirement id="AP_UnlockMarine">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMarine"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockMedic">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMedic"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockFirebat">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFirebat"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockMarauder">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMarauder"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockReaper">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockReaper"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockHellion">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHellion"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockVulture">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockVulture"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockGoliath">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockGoliath"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockDiamondback">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDiamondback"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSiege Tank">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSiege Tank"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockMedivac">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMedivac"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockWraith">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockWraith"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockViking">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockViking"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBanshee">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBanshee"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBattlecruiser">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBattlecruiser"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockGhost">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockGhost"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSpectre">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSpectre"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockThor">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockThor"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockRaven">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockRaven"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockScience Vessel">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockScience Vessel"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockPredator">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPredator"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockHercules">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHercules"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockDominionTrooper">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDominionTrooper"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockHERC">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHERC"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockWidowMine">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockWidowMine"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockCyclone">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockCyclone"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockWarhound">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockWarhound"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockLiberator">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockLiberator"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockValkyrie">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockValkyrie"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSonOfKorhal">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSonOfKorhal"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockFieldResponseTheta">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFieldResponseTheta"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockAegisGuard">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockAegisGuard"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockEmperorsShadow">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockEmperorsShadow"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBulwarkCompany">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBulwarkCompany"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockShockDivision">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockShockDivision"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBlackhammer">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBlackhammer"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSkyFury">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSkyFury"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockWingedNightmare">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockWingedNightmare"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockNightWolf">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockNightWolf"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockEmperorsGuardian">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockEmperorsGuardian"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockPrideOfAugustgrad">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPrideOfAugustgrad"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBunker">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBunker"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockMissileTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMissileTurret"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSensorTower">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSensorTower"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockPlanetaryFortress">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPlanetaryFortress"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockPerditionTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPerditionTurret"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockHiveMindEmulator">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHiveMindEmulator"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockPsiDisrupter">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPsiDisrupter"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockDevastatorTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDevastatorTurret"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockWarPigs">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockWarPigs"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockDevilDogs">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDevilDogs"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockHammerSecurities">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHammerSecurities"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSpartanCompany">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSpartanCompany"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSiegeBreakers">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSiegeBreakers"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockHelsAngels">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHelsAngels"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockDuskWings">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDuskWings"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockJacksonsRevenge">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockJacksonsRevenge"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockSkibisAngels">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSkibisAngels"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockDeathHeads">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDeathHeads"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockPhantomSquadron">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPhantomSquadron"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockMidnightRiders">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMidnightRiders"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBrynhilds">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBrynhilds"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockJotun">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockJotun"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockBarracks">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBarracks"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockFactory">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFactory"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockStarport">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockStarport"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockReactor">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockReactor"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockTechLab">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockTechLab"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockTechReactor">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockTechReactor"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockEngineeringBay">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockEngineeringBay"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockArmory">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockArmory"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockGhostAcademy">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockGhostAcademy"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockFusionCore">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFusionCore"/>
+    </CRequirement>
+    <!-- End of unit unlocks -->
     <CRequirement id="AP_HaveGreaterSpireAndHotSBroodlord">
         <EditorCategories value="Race:Zerg,TechType:Unit"/>
         <CanBeSuppressed index="Use" value="0"/>

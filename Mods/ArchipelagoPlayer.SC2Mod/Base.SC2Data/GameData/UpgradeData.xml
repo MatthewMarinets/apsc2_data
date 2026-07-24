@@ -2124,6 +2124,94 @@
         <EffectArray Reference="Effect,AP_BullfrogSpitDamage,Amount" Value="1"/>
         <EffectArray Reference="Weapon,AP_BullfrogSpit,Level" Value="1"/>
     </CUpgrade>
+    <!-- ###################################################################################### -->
+    <!-- Unlocks .............................................................................. -->
+    <!-- ###################################################################################### -->
+    <!-- Terran -->
+    <!-- Units -->
+    <CUpgrade id="AP_UnlockMarine"/>
+    <CUpgrade id="AP_UnlockMedic"/>
+    <CUpgrade id="AP_UnlockFirebat"/>
+    <CUpgrade id="AP_UnlockMarauder"/>
+    <CUpgrade id="AP_UnlockReaper"/>
+    <CUpgrade id="AP_UnlockHellion"/>
+    <CUpgrade id="AP_UnlockVulture"/>
+    <CUpgrade id="AP_UnlockGoliath"/>
+    <CUpgrade id="AP_UnlockDiamondback"/>
+    <CUpgrade id="AP_UnlockSiege Tank"/>
+    <CUpgrade id="AP_UnlockMedivac"/>
+    <CUpgrade id="AP_UnlockWraith"/>
+    <CUpgrade id="AP_UnlockViking"/>
+    <CUpgrade id="AP_UnlockBanshee"/>
+    <CUpgrade id="AP_UnlockBattlecruiser"/>
+    <CUpgrade id="AP_UnlockGhost"/>
+    <CUpgrade id="AP_UnlockSpectre"/>
+    <CUpgrade id="AP_UnlockThor"/>
+    <CUpgrade id="AP_UnlockRaven"/>
+    <CUpgrade id="AP_UnlockScience Vessel"/>
+    <CUpgrade id="AP_UnlockPredator"/>
+    <CUpgrade id="AP_UnlockHercules"/>
+    <CUpgrade id="AP_UnlockDominionTrooper"/>
+    <CUpgrade id="AP_UnlockHERC"/>
+    <CUpgrade id="AP_UnlockWidowMine"/>
+    <CUpgrade id="AP_UnlockCyclone"/>
+    <CUpgrade id="AP_UnlockWarhound"/>
+    <CUpgrade id="AP_UnlockLiberator"/>
+    <CUpgrade id="AP_UnlockValkyrie"/>
+    <!-- Royal Guard -->
+    <CUpgrade id="AP_UnlockSonOfKorhal"/>
+    <CUpgrade id="AP_UnlockFieldResponseTheta"/>
+    <CUpgrade id="AP_UnlockAegisGuard"/>
+    <CUpgrade id="AP_UnlockEmperorsShadow"/>
+    <CUpgrade id="AP_UnlockBulwarkCompany"/>
+    <CUpgrade id="AP_UnlockShockDivision"/>
+    <CUpgrade id="AP_UnlockBlackhammer"/>
+    <CUpgrade id="AP_UnlockSkyFury"/>
+    <CUpgrade id="AP_UnlockWingedNightmare"/>
+    <CUpgrade id="AP_UnlockNightWolf"/>
+    <CUpgrade id="AP_UnlockEmperorsGuardian"/>
+    <CUpgrade id="AP_UnlockPrideOfAugustgrad"/>
+    <!-- Static Defense -->
+    <CUpgrade id="AP_UnlockBunker"/>
+    <CUpgrade id="AP_UnlockMissileTurret"/>
+    <CUpgrade id="AP_UnlockSensorTower"/>
+    <CUpgrade id="AP_UnlockPlanetaryFortress"/>
+    <CUpgrade id="AP_UnlockPerditionTurret"/>
+    <CUpgrade id="AP_UnlockHiveMindEmulator"/>
+    <CUpgrade id="AP_UnlockPsiDisrupter"/>
+    <CUpgrade id="AP_UnlockDevastatorTurret"/>
+    <!-- Mercenaries -->
+    <CUpgrade id="AP_UnlockWarPigs"/>
+    <CUpgrade id="AP_UnlockDevilDogs"/>
+    <CUpgrade id="AP_UnlockHammerSecurities"/>
+    <CUpgrade id="AP_UnlockSpartanCompany"/>
+    <CUpgrade id="AP_UnlockSiegeBreakers"/>
+    <CUpgrade id="AP_UnlockHelsAngels"/>
+    <CUpgrade id="AP_UnlockDuskWings"/>
+    <CUpgrade id="AP_UnlockJacksonsRevenge"/>
+    <CUpgrade id="AP_UnlockSkibisAngels"/>
+    <CUpgrade id="AP_UnlockDeathHeads"/>
+    <CUpgrade id="AP_UnlockPhantomSquadron"/>
+    <CUpgrade id="AP_UnlockMidnightRiders"/>
+    <CUpgrade id="AP_UnlockBrynhilds"/>
+    <CUpgrade id="AP_UnlockJotun"/>
+    <!-- Buildings -->
+    <CUpgrade id="AP_UnlockBarracks"/>
+    <CUpgrade id="AP_UnlockFactory"/>
+    <CUpgrade id="AP_UnlockStarport"/>
+    <CUpgrade id="AP_UnlockReactor"/>
+    <CUpgrade id="AP_UnlockTechLab"/>
+    <CUpgrade id="AP_UnlockTechReactor"/>
+    <CUpgrade id="AP_UnlockEngineeringBay"/>
+    <CUpgrade id="AP_UnlockArmory"/>
+    <CUpgrade id="AP_UnlockGhostAcademy"/>
+    <CUpgrade id="AP_UnlockFusionCore"/>
+    <!-- Zerg -->
+    <CUpgrade id="AP_UnlockHiveQueen"/>
+    <!-- Protoss -->
+    <!-- ###################################################################################### -->
+    <!-- General Upgrades ..................................................................... -->
+    <!-- ###################################################################################### -->
     <CUpgrade id="AP_330mmBarrageCannons">
         <Flags index="UpgradeCheat" value="0"/>
         <Race value="Terr"/>
@@ -13765,7 +13853,6 @@
         <AffectedUnitArray value="AP_MercTorrasqueCorpse"/>
         <AffectedUnitArray value="AP_MercTorrasqueChrysalis"/>
     </CUpgrade>
-    <CUpgrade id="AP_HaveHiveQueen"/>
     <CUpgrade id="AP_HiveQueenSwelledTransfusion">
         <EffectArray Reference="Effect,AP_HiveQueenTransfusion,VitalArray[Life].Change" Value="25"/>
         <AffectedUnitArray value="AP_HiveQueen"/>
