@@ -3,7 +3,7 @@
     <CRequirement id="AP_NeverShow">
         <NodeArray index="Show" Link="AP_Never"/>
     </CRequirement>
-    <!-- Terran unit unlocks -->
+<!-- Terran unit unlocks -->
     <CRequirement id="AP_UnlockMarine">
         <EditorCategories value="Race:Terran,TechType:Upgrade"/>
         <NodeArray index="Show" Link="AP_UnlockMarine"/>
@@ -268,6 +268,10 @@
         <EditorCategories value="Race:Terran,TechType:Upgrade"/>
         <NodeArray index="Show" Link="AP_UnlockStarport"/>
     </CRequirement>
+    <CRequirement id="AP_UnlockMercenaryCompound">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMercenaryCompound"/>
+    </CRequirement>
     <CRequirement id="AP_UnlockReactor">
         <EditorCategories value="Race:Terran,TechType:Upgrade"/>
         <NodeArray index="Show" Link="AP_UnlockReactor"/>
@@ -296,7 +300,169 @@
         <EditorCategories value="Race:Terran,TechType:Upgrade"/>
         <NodeArray index="Show" Link="AP_UnlockFusionCore"/>
     </CRequirement>
-    <!-- End of unit unlocks -->
+    <CRequirement id="AP_UnlockBarracksMengsk">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBarracksMengsk"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockFactoryMengsk">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFactoryMengsk"/>
+    </CRequirement>
+    <CRequirement id="AP_UnlockStarportMengsk">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockStarportMengsk"/>
+    </CRequirement>
+<!-- Terran Unit Build -->
+    <CRequirement id="AP_BuildMedic">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMedic"/>
+        <NodeArray index="Use" Link="AP_HaveAttachedTechLab"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildFirebat">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFirebat"/>
+        <NodeArray index="Use" Link="AP_HaveAttachedTechLab"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildMarauder">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMarauder"/>
+        <NodeArray index="Use" Link="AP_HaveAttachedTechLab"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildReaper">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockReaper"/>
+        <NodeArray index="Use" Link="AP_HaveAttachedTechLab"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildGhost">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockGhost"/>
+        <NodeArray index="Use" Link="AP_AndCountUnitAlias_TechLabCompleteOnlyAtUnitTechTreeCheatCountUnitGhostAcademyCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildSpectre">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSpectre"/>
+        <NodeArray index="Use" Link="AP_AndCountUnitAlias_TechLabCompleteOnlyAtUnitTechTreeCheatCountUnitGhostAcademyCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildHERC">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHERC"/>
+        <NodeArray index="Use" Link="AP_HaveAttachedTechLab"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildBattlecruiser">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBattlecruiser"/>
+        <NodeArray index="Use" Link="AP_AndCountUnitAlias_TechLabCompleteOnlyAtUnitTechTreeCheatCountUnitFusionCoreCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildBattlecruiserInternalTechModule">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBattlecruiser"/>
+        <NodeArray index="Use" Link="AP_CountUnitFusionCoreCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+<!-- Terran structure build -->
+    <CRequirement id="AP_BuildTechLab">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockTechLabAndNotUnlockTechReactor"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildReactor">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockReactorAndNotUnlockTechReactor"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildBarracks">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBarracks"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildFactory">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFactory"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildStarport">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockStarport"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildMercenaryCompound">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMercenaryCompound"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildEngineeringBay">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockEngineeringBay"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildArmory">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockArmory"/>
+        <NodeArray index="Use" Link="AP_OrCountUnitAlias_FactoryCompleteOnlyTechTreeCheatCountUnitAlias_StarportCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildGhostAcademy">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockGhostAcademy"/>
+        <NodeArray index="Use" Link="AP_OrCountUnitAlias_BarracksCompleteOnlyTechTreeCheatCountUnitAlias_FactoryCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildFusionCore">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFusionCore"/>
+        <NodeArray index="Use" Link="CountUnitAlias_StarportCompleteOnly4195804750TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildBarracksMengsk">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBarracksMengsk"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildFactoryMengsk">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockFactoryMengsk"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildStarportMengsk">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockStarportMengsk"/>
+        <NodeArray index="Use" Link="CountUnitAlias_CommandCenterCompleteOnly1610623376TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildMissileTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockMissileTurret"/>
+        <NodeArray index="Use" Link="AP_CountUnitEngineeringBayCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildUnfortifiedBunker">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBunkerAndNotUnlockFortifiedBunker"/>
+        <NodeArray index="Use" Link="CountUnitAlias_BarracksCompleteOnly789532539TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildFortifiedBunker">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockBunkerAndUnlockFortifiedBunker"/>
+        <NodeArray index="Use" Link="CountUnitAlias_BarracksCompleteOnly789532539TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildSensorTower">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockSensorTower"/>
+        <NodeArray index="Use" Link="AP_CountUnitEngineeringBayCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildPerditionTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPerditionTurret"/>
+        <NodeArray index="Use" Link="AP_CountUnitEngineeringBayCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildPsiDisrupter">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockPsiDisrupter"/>
+        <NodeArray index="Use" Link="AP_CountUnitEngineeringBayCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildHiveMindEmulator">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockHiveMindEmulator"/>
+        <NodeArray index="Use" Link="AP_CountUnitEngineeringBayCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="AP_BuildDevastatorTurret">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="AP_UnlockDevastatorTurret"/>
+        <NodeArray index="Use" Link="AP_CountUnitFactoryCompleteOnly"/>
+    </CRequirement>
+<!-- End of Terran Structure Build -->
     <CRequirement id="AP_HaveGreaterSpireAndHotSBroodlord">
         <EditorCategories value="Race:Zerg,TechType:Unit"/>
         <CanBeSuppressed index="Use" value="0"/>
@@ -974,21 +1140,9 @@
         <EditorCategories value="Race:Terran,TechType:Unit"/>
         <NodeArray index="Use" Link="AP_NotCountUnitAlias_CommandCenterCompleteOnly"/>
     </CRequirement>
-    <CRequirement id="AP_HaveAttachedBarrTechLabOrAttachedTechReactorAndShadowOps">
-        <EditorCategories value="Race:Terran,TechType:Unit"/>
-        <NodeArray index="Use" Link="AP_AndCountUnitAlias_TechLabCompleteOnlyAtUnitTechTreeCheatCountUnitGhostAcademyCompleteOnlyTechTreeCheat"/>
-    </CRequirement>
     <CRequirement id="AP_HaveAttachedTechLabOrMedicTraining">
         <EditorCategories value="Race:Terran,TechType:Unit"/>
         <NodeArray index="Use" Link="AP_OrCountUnitAlias_TechLabCompleteOnlyAtUnitTechTreeCheatCountUpgradeAdvancedMedicTrainingCompleteOnly"/>
-    </CRequirement>
-    <CRequirement id="AP_UseTechReactor">
-        <EditorCategories value="Race:Terran,TechType:Unit"/>
-        <NodeArray index="Show" Link="AP_CountUpgradeTechReactorCompleteOnly"/>
-    </CRequirement>
-    <CRequirement id="AP_UseTechReactorHide">
-        <EditorCategories value="Race:Terran,TechType:Unit"/>
-        <NodeArray index="Show" Link="AP_NotCountUpgradeTechReactorCompleteOnly"/>
     </CRequirement>
     <CRequirement id="AP_ShowIfHaveVanillaBarrAddOnParent">
         <EditorCategories value="Race:Terran,TechType:Unit"/>
@@ -1164,10 +1318,6 @@
     </CRequirement>
     <CRequirement id="AP_HaveBarracksOrFactory">
         <NodeArray index="Use" Link="AP_OrCountUnitAlias_BarracksCompleteOnlyTechTreeCheatCountUnitAlias_FactoryCompleteOnlyTechTreeCheat"/>
-    </CRequirement>
-    <CRequirement id="AP_CanBuildShadowOps">
-        <NodeArray index="Use" Link="AP_OrCountUnitAlias_BarracksCompleteOnlyTechTreeCheatCountUnitAlias_FactoryCompleteOnlyTechTreeCheat"/>
-        <NodeArray index="Show" Link="AP_OrAndCountUpgradeNovaNukeCompleteOnlyCountUpgradeNovaEnabledCompleteOnlyCountUpgradeHaveGhostOrSpectreOrThorNukeCompleteOnly"/>
     </CRequirement>
     <CRequirement id="AP_AutoHarvesterResearched">
         <NodeArray index="Show" Link="AP_CountUpgradeAutoHarvesterCompleteOnly"/>

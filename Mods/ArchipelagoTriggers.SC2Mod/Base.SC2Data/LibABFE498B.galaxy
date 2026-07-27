@@ -6022,12 +6022,6 @@ void libABFE498B_gf_AP_Triggers_Terran_unlockOrbitalCommand (int lp_player) {
 void libABFE498B_gf_AP_Triggers_clearTerranTech (int lp_player) {
     // Automatic Variable Declarations
     // Implementation
-    TechTreeUnitAllow(lp_player, "AP_Marine", false);
-    TechTreeUnitAllow(lp_player, "AP_Medic", false);
-    TechTreeUnitAllow(lp_player, "AP_Firebat", false);
-    TechTreeUnitAllow(lp_player, "AP_FirebatOptimizedLogistics", false);
-    TechTreeUnitAllow(lp_player, "AP_Marauder", false);
-    TechTreeUnitAllow(lp_player, "AP_Reaper", false);
     TechTreeUnitAllow(lp_player, "AP_Hellion", false);
     TechTreeUnitAllow(lp_player, "AP_HellionTank", false);
     TechTreeUnitAllow(lp_player, "AP_Vulture", false);
@@ -6039,10 +6033,6 @@ void libABFE498B_gf_AP_Triggers_clearTerranTech (int lp_player) {
     TechTreeUnitAllow(lp_player, "AP_VikingFighter", false);
     TechTreeUnitAllow(lp_player, "AP_Banshee", false);
     TechTreeUnitAllow(lp_player, "AP_Battlecruiser", false);
-    TechTreeUnitAllow(lp_player, "AP_Ghost", false);
-    TechTreeUnitAllow(lp_player, "AP_GhostResourceEfficiency", false);
-    TechTreeUnitAllow(lp_player, "AP_Spectre", false);
-    TechTreeUnitAllow(lp_player, "AP_SpectreResourceEfficiency", false);
     TechTreeUnitAllow(lp_player, "AP_Thor", false);
     TechTreeUnitAllow(lp_player, "AP_ThorBuild", false);
     TechTreeUnitAllow(lp_player, "AP_Raven", false);
@@ -6053,7 +6043,6 @@ void libABFE498B_gf_AP_Triggers_clearTerranTech (int lp_player) {
     TechTreeUnitAllow(lp_player, "AP_ValkyrieSCBW", false);
     TechTreeUnitAllow(lp_player, "AP_WidowMine", false);
     TechTreeUnitAllow(lp_player, "AP_Cyclone", false);
-    TechTreeUnitAllow(lp_player, "AP_HERC", false);
     TechTreeUnitAllow(lp_player, "AP_WarHound", false);
     TechTreeUnitAllow(lp_player, "AP_VikingMengskFighter", false);
     TechTreeUnitAllow(lp_player, "AP_BattlecruiserMengsk", false);
@@ -6061,7 +6050,6 @@ void libABFE498B_gf_AP_Triggers_clearTerranTech (int lp_player) {
     TechTreeUnitAllow(lp_player, "AP_ThorMengsk", false);
     TechTreeUnitAllow(lp_player, "AP_MarauderMengsk", false);
     TechTreeUnitAllow(lp_player, "AP_GhostMengsk", false);
-    TechTreeUnitAllow(lp_player, "AP_TrooperMengsk", false);
     TechTreeUnitAllow(lp_player, "AP_MarineMengsk", false);
     TechTreeUnitAllow(lp_player, "AP_GoliathMengsk", false);
     TechTreeUnitAllow(lp_player, "AP_MedicMengsk", false);
@@ -6082,42 +6070,6 @@ void libABFE498B_gf_AP_Triggers_clearTerranTech (int lp_player) {
     TechTreeUnitAllow(lp_player, "AP_MercLiberator", false);
     TechTreeUnitAllow(lp_player, "AP_BrynhildFighter", false);
     TechTreeUnitAllow(lp_player, "AP_MercThor", false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 3), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 4), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 19), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 7), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 6), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 22), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 5), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 8), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 24), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 21), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 9), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 12), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 10), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 13), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 11), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 15), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 27), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 26), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TerranBuild", 25), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_BarracksAddOns", 1), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_FactoryAddOns", 1), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_StarportAddOns", 1), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_BarracksAddOns", 0), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_FactoryAddOns", 0), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_StarportAddOns", 0), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_BarracksAddOns", 3), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_FactoryAddOns", 3), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_StarportAddOns", 3), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 19), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 7), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 6), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 22), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 5), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 8), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 21), false);
-    TechTreeAbilityAllow(lp_player, AbilityCommand("AP_TrooperMengskBuild", 24), false);
     TechTreeUpgradeAllow(lp_player, "AP_TerranInfantryArmorsLevel1", false);
     TechTreeUpgradeAllow(lp_player, "AP_TerranInfantryArmorsLevel2", false);
     TechTreeUpgradeAllow(lp_player, "AP_TerranInfantryArmorsLevel3", false);

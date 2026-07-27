@@ -4,7 +4,7 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Value value="0"/>
     </CRequirementConst>
-    <!-- Terran unit unlocks -->
+<!-- Terran unit unlocks -->
     <CRequirementCountUpgrade id="AP_UnlockMarine">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AP_UnlockMarine" State="CompleteOnly"/>
@@ -269,6 +269,10 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AP_UnlockStarport" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockMercenaryCompound">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockMercenaryCompound" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="AP_UnlockReactor">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AP_UnlockReactor" State="CompleteOnly"/>
@@ -297,7 +301,45 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AP_UnlockFusionCore" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
-    <!-- End of unit unlocks -->
+    <CRequirementCountUpgrade id="AP_UnlockBarracksMengsk">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockBarracksMengsk" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockFactoryMengsk">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockFactoryMengsk" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="AP_UnlockStarportMengsk">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AP_UnlockStarportMengsk" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+<!-- Terran Add-ons -->
+    <CRequirementNot id="AP_NotUnlockTechReactor">
+        <OperandArray index="0" value="AP_CountUpgradeTechReactorCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementAnd id="AP_UnlockTechLabAndNotUnlockTechReactor">
+        <OperandArray value="AP_UnlockTechLab"/>
+        <OperandArray value="AP_NotUnlockTechReactor"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AP_UnlockReactorAndNotUnlockTechReactor">
+        <OperandArray value="AP_UnlockReactor"/>
+        <OperandArray value="AP_NotUnlockTechReactor"/>
+    </CRequirementAnd>
+<!-- Terran Unit Build -->
+    <CRequirementCountUnit id="AP_HaveAttachedTechLab">
+        <Tooltip value="RequirementNode/Tooltip/CountUnitAlias_TechLabCompleteOnlyAtUnit2589852481"/>
+        <Count Link="Alias_TechLab" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+<!-- Terran Structure Build -->
+    <CRequirementAnd id="AP_UnlockBunkerAndNotUnlockFortifiedBunker">
+        <OperandArray value="AP_UnlockBunker"/>
+        <OperandArray value="AP_NotCountUpgradeFortifiedBunkerCarapaceCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AP_UnlockBunkerAndUnlockFortifiedBunker">
+        <OperandArray value="AP_UnlockBunker"/>
+        <OperandArray value="AP_CountUpgradeFortifiedBunkerCarapaceCompleteOnly"/>
+    </CRequirementAnd>
+<!-- End of terran unit build -->
     <CRequirementCountUpgrade id="AP_CountUpgradeHotSHaveRaptorCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AP_HotSHaveRaptor" State="CompleteOnly"/>
@@ -1270,9 +1312,6 @@
         <OperandArray value="AP_NotCountUnitAPStarportCompleteOnlyAtUnit"/>
         <OperandArray value="CountUnitAlias_StarportCompleteOnlyAtUnit"/>
     </CRequirementAnd>
-    <CRequirementNot id="AP_NotCountUpgradeTechReactorCompleteOnly">
-        <OperandArray index="0" value="AP_CountUpgradeTechReactorCompleteOnly"/>
-    </CRequirementNot>
     <CRequirementOr id="AP_OrCountUnitAlias_TechLabCompleteOnlyAtUnitTechTreeCheatCountUpgradeAdvancedMedicTrainingCompleteOnly">
         <OperandArray value="CountUnitAlias_TechLabCompleteOnlyAtUnit2589852481TechTreeCheat"/>
         <OperandArray value="AP_CountUpgradeAdvancedMedicTrainingCompleteOnly"/>

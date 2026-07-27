@@ -1162,7 +1162,7 @@
     <CBehaviorBuff id="AP_MorphToTechReactor">
         <InfoFlags index="Hidden" value="1"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
-        <Requirements value="AP_UseTechReactor"/>
+        <Requirements value="AP_UnlockTechReactor"/>
         <BuffFlags index="DisableWhileUnderConstruction" value="1"/>
         <Duration value="0.1"/>
         <ExpireEffect value="AP_MorphToTechReactor"/>
